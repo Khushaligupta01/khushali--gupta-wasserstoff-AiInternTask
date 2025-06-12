@@ -1,10 +1,12 @@
-🚀 AI Intern Task — Wasserstoff Innovation & Learning Labs
+
+
+# 🚀 AI Intern Task — Wasserstoff Innovation & Learning Labs
+
 This is my submission for the AI Internship Task assigned by Wasserstoff Innovation and Learning Labs. The project is a minimal, cleanly structured Gen-AI powered chatbot that allows uploading documents and extracts key themes and insights using NLP.
 
-📁 Project Structure
-bash
-Copy
-Edit
+## 📁 Project Structure
+
+```bash
 samarth--thakur-wasserstoff-AiInternTask/
 ├── backend/          # FastAPI server with upload & processing logic
 │   └── app/
@@ -18,60 +20,78 @@ samarth--thakur-wasserstoff-AiInternTask/
 │
 ├── requirements.txt  # Python package dependencies
 └── README.md         # This file
-🧠 Features
+```
+
+---
+
+## 🧠 Features
+
 ✅ Upload document (.pdf, .txt, .docx)
 ✅ User-friendly Streamlit UI
 ✅ Backend built with FastAPI
 ✅ Ready for semantic search, theme detection, and embeddings
 ✅ Minimalistic & well-commented structure
 
-🛠️ Setup Instructions
-Clone the repository:
+---
 
-bash
-Copy
-Edit
+## 🛠️ Setup Instructions
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/samarththakurr/samarth--thakur-wasserstoff-AiInternTask.git
 cd samarth--thakur-wasserstoff-AiInternTask
-Create a virtual environment and install dependencies:
+```
 
-bash
-Copy
-Edit
+2. Create a virtual environment and install dependencies:
+
+```bash
 python -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
-Run the backend:
+```
 
-bash
-Copy
-Edit
+3. Run the backend:
+
+```bash
 cd backend
 uvicorn app.main:app --reload
-Run the frontend:
+```
 
-bash
-Copy
-Edit
+4. Run the frontend:
+
+```bash
 cd ../frontend
 streamlit run app.py
-📹 Demo Video
+```
+
+---
+
+## 📹 Demo Video
+
 A short video walkthrough is included with my submission explaining:
 
-My thought process
+* My thought process
+* Project structure
+* How it works
+* Scope for further enhancements (like theme extraction & embeddings)
 
-Project structure
+---
 
-How it works
+## ✨ Future Work
 
-Scope for further enhancements (like theme extraction & embeddings)
+* Implementing vector database for semantic search
+* Using OpenAI/LLM APIs for document theme summarization
+* Enhanced frontend (drag-and-drop, preview)
+* Secure file upload & user sessions
 
-✨ Future Work
-Implementing vector database for semantic search
+---
 
-Using OpenAI/LLM APIs for document theme summarization
+## 🙏 Acknowledgment
 
-Enhanced frontend (drag-and-drop, preview)
+Thanks to the Wasserstoff team for this opportunity. I’ve built this from scratch with care, a focus on clean design, and a passion for learning AI.
+
+
 
 Secure file upload & user sessions
 
